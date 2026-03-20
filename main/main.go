@@ -1,7 +1,7 @@
 package main
 
 import (
-	ystm "github.com/a374ru/gotest/v0.0.2/srvr"
+	ystm "github.com/a374ru/gotest/v0.0.3/srvr"
 )
 
 func main() {

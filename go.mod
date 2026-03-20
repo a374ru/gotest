@@ -1,4 +1,4 @@
-module github.com/a374ru/gotest/v0.0.2
+module github.com/a374ru/gotest/v0.0.3
 
 go 1.26.1
 
