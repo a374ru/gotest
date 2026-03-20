@@ -6,7 +6,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "<h1>Привет! Ты запросил: %s из папки: <span style='color:red'>%s</span></h1>", Varr(r.URL.Path), r.URL.Host)
+	fmt.Fprintf(w, "<h1>Привет! test: %s из папки: <span style='color:red'>%s</span></h1>", Varr(r.URL.Path), r.URL.Host)
 }
 
 func Serv() {
