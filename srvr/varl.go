@@ -6,7 +6,7 @@ import (
 	"time"
 )
 
-func Varr(a) int {
+func Varr() int {
 	var Ttt = time.Now().UTC()
 	const message2 = "Hello, Go!"
 	const message3 string = "Hello, Programming!"
