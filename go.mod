@@ -1,5 +1,5 @@
-module github.com/a374ru/gotest
+module github.com/a374ru/gotest/v0.0.1
 
 go 1.26.1
 
-replace github.com/a374ru/gotest => ../gotest
+require github.com/gorilla/mux v1.8.1

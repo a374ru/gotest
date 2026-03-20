@@ -1,10 +1,10 @@
 package main
 
 import (
-	"github.com/a374ru/gotest/srvr"
+	ystm "github.com/a374ru/gotest/v0.0.1/srvr"
 )
 
 func main() {
-	srvr.Serv()
+	ystm.Serv()
 
 } /////////// end main ////////////////

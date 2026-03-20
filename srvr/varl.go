@@ -2,11 +2,12 @@ package srvr
 
 import (
 	"fmt"
+	gor "github.com/gorilla/mux" // Новая зависимость
 	"math/rand"
 	"time"
 )
 
-func Varr() int {
+func Varr(per string) string {
 	var Ttt = time.Now().UTC()
 	const message2 = "Hello, Go!"
 	const message3 string = "Hello, Programming!"
@@ -22,11 +23,12 @@ func Varr() int {
 		mass[i] = -(rand.Intn(100)) // заполняем массив случайными числами от 0 до 1000
 	}
 	mass3 := []int{14, 24, 43, 44, 45}
-	fmt.Println(mass)
+	fmt.Println(mass, Ttt)
 
 	// mass2 := []int{} // создаем новый массив для объединения
 	mass = append(mass3, mass3...)
-	fmt.Println(mass)
+	asd := gor.NewRouter()
+	fmt.Println(mass, per, asd)
 
-	return Ttt.Nanosecond()
+	return per
 }
